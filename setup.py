@@ -1,12 +1,12 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="advent-of-code-2020",
+    name="AdventOfCode2020",
     version="0.1",
-    description="W3D3's solutions for https://adventofcode.com/",
-    url="https://github.com/w3d3/advent-of-code-2020",
+    description="W3D3's solutions for Advent of Code 2020",
+    url="https://github.com/W3D3/AdventOfCode2020",
     author="W3D3",
-    author_email="myusername@example.com",
+    author_email="christoph@wedenig.org",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
     classifiers=[
