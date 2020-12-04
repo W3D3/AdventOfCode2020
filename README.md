@@ -1,4 +1,4 @@
-# Advent of Code 2020
+# Advent of Code 2020 🎄
 
 Solutions for the [AoC 2020](https://adventofcode.com/2020) puzzles, written in Python.
 
@@ -8,7 +8,8 @@ Solutions for the [AoC 2020](https://adventofcode.com/2020) puzzles, written in 
 |-----|---------------------------------------------------------------|-----------------------------------------------|
 | 1   | 🛠️ [Report Repair](https://adventofcode.com/2020/day/1)       | **[day1.py](solutions/aoc2020/day1.py)** ⭐⭐ |
 | 2   | 🔑 [Password Philosophy](https://adventofcode.com/2020/day/2) | **[day2.py](solutions/aoc2020/day2.py)** ⭐⭐ |
-| 2   | 📉 [Toboggan Trajectory](https://adventofcode.com/2020/day/3) | **[day3.py](solutions/aoc2020/day3.py)** ⭐⭐ |
+| 2   | 🛷 [Toboggan Trajectory](https://adventofcode.com/2020/day/3) | **[day3.py](solutions/aoc2020/day3.py)** ⭐⭐ |
+| 2   | 🛂 [Passport Processing](https://adventofcode.com/2020/day/4) | **[day4.py](solutions/aoc2020/day4.py)** ⭐⭐ |
 
 ## Batch running
 
