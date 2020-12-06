@@ -11,6 +11,7 @@ Solutions for the [AoC 2020](https://adventofcode.com/2020) puzzles, written in 
 | 3   | 🛷 [Toboggan Trajectory](https://adventofcode.com/2020/day/3) | **[day3.py](solutions/aoc2020/day3.py)** ⭐⭐ |
 | 4   | 🛂 [Passport Processing](https://adventofcode.com/2020/day/4) | **[day4.py](solutions/aoc2020/day4.py)** ⭐⭐ |
 | 5   | 🎫 [Binary Boarding](https://adventofcode.com/2020/day/5)     | **[day5.py](solutions/aoc2020/day5.py)** ⭐⭐ |
+| 6   | 🛃 [Custom Customs](https://adventofcode.com/2020/day/6)      | **[day6.py](solutions/aoc2020/day6.py)** ⭐⭐ |
 
 ## Batch running
 
