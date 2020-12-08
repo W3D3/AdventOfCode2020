@@ -16,7 +16,8 @@ setup(
     install_requires=[
         "advent-of-code-data >= 0.8.0",
         "parse",
-        "networkx"
+        "networkx",
+        "matplotlib"
         # list your other requirements here, for example:
         # "numpy", "parse", "networkx",
     ],
