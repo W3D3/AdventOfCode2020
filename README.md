@@ -16,6 +16,7 @@ Solutions for the [AoC 2020](https://adventofcode.com/2020) puzzles, written in 
 | 8   | 🎮 [Handheld Halting](https://adventofcode.com/2020/day/8)    | **[day8.py](solutions/aoc2020/day8.py)** ⭐⭐  |
 | 9   | ❌ [Encoding Error](https://adventofcode.com/2020/day/9)      | **[day9.py](solutions/aoc2020/day9.py)** ⭐⭐  |
 | 10  | 🔌 [Adapter Array](https://adventofcode.com/2020/day/10)      | **[day10.py](solutions/aoc2020/day10.py)** ⭐⭐ |
+| 11  | 🪑 [Seating System](https://adventofcode.com/2020/day/11)     | **[day11.py](solutions/aoc2020/day11.py)** ⭐⭐ |
 
 ## Batch running
 
