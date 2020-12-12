@@ -17,7 +17,8 @@ setup(
         "advent-of-code-data >= 0.8.0",
         "parse",
         "networkx",
-        "matplotlib"
+        "matplotlib",
+        "numpy"
         # list your other requirements here, for example:
         # "numpy", "parse", "networkx",
     ],
