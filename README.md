@@ -4,8 +4,8 @@ Solutions for the [AoC 2020](https://adventofcode.com/2020) puzzles, written in 
 
 ## Solutions
 
-| Day | Title                                                         | Solution                                       |
-|-----|---------------------------------------------------------------|------------------------------------------------|
+| Day | Title                                                         | Solution                                        |
+|-----|---------------------------------------------------------------|-------------------------------------------------|
 | 1   | 🛠️ [Report Repair](https://adventofcode.com/2020/day/1)       | **[day1.py](solutions/aoc2020/day1.py)** ⭐⭐   |
 | 2   | 🔑 [Password Philosophy](https://adventofcode.com/2020/day/2) | **[day2.py](solutions/aoc2020/day2.py)** ⭐⭐   |
 | 3   | 🛷 [Toboggan Trajectory](https://adventofcode.com/2020/day/3) | **[day3.py](solutions/aoc2020/day3.py)** ⭐⭐   |
@@ -18,7 +18,8 @@ Solutions for the [AoC 2020](https://adventofcode.com/2020) puzzles, written in 
 | 10  | 🔌 [Adapter Array](https://adventofcode.com/2020/day/10)      | **[day10.py](solutions/aoc2020/day10.py)** ⭐⭐ |
 | 11  | 🪑 [Seating System](https://adventofcode.com/2020/day/11)     | **[day11.py](solutions/aoc2020/day11.py)** ⭐⭐ |
 | 12  | ⛈ [Rain Risk](https://adventofcode.com/2020/day/12)          | **[day12.py](solutions/aoc2020/day12.py)** ⭐⭐ |
-| 13  | ⛈ [Shuttle Search](https://adventofcode.com/2020/day/13)     | **[day13.py](solutions/aoc2020/day13.py)** ⭐⭐ |
+| 13  | 🚌 [Shuttle Search](https://adventofcode.com/2020/day/13)     | **[day13.py](solutions/aoc2020/day13.py)** ⭐⭐ |
+| 14  | 🚢 [Docking Data](https://adventofcode.com/2020/day/14)       | **[day14.py](solutions/aoc2020/day14.py)** ⭐⭐ |
 
 ## Batch running
 
