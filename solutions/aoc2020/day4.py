@@ -33,7 +33,6 @@ def part_b(data):
 
 def valid(passport):
     req_keys = {'byr', 'iyr', 'eyr', 'hgt', 'hcl', 'ecl', 'pid'}  # we skip cid
-    print(req_keys.intersection(passport.keys()))
     return req_keys.intersection(passport.keys()) == req_keys
 
 

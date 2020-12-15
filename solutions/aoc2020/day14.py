@@ -32,7 +32,7 @@ def part_b(data):
         if cmd == "mask":
             # generate all substitutions for X
             masks = generate_masks(value, "X")
-            # create a mask to 0 out every bit in the oringal memory location where the mask is X
+            # create a mask to 0 out every bit in the original memory location where the mask is X
             preprocessing_mask = int(value.replace("0", "1").replace("X", "0"), 2)
         else:
             mem_loc = int(parse("mem[{:d}]", cmd.strip()).fixed[0])
@@ -46,7 +46,7 @@ def part_b(data):
 # Return all valid combinations of bitmasks as Int
 def generate_masks(mask, floating_char):
     options = [(c,) if c != floating_char else ("0", "1") for c in mask]
-    return (int(''.join(o), 2) for o in itertools.product(*options))
+    return list(int(''.join(o), 2) for o in itertools.product(*options))
 
 
 def parse_data(data):
