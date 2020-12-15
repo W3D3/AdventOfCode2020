@@ -29,4 +29,4 @@ jobs:
         python -m pip install .
     - name: Run all solutions
       run: |
-        for f in solutions/aoc2020/day*/*.py; do python "$f"; done 
+        for f in ./solutions/aoc2020/day*.py; do python "$f"; done 
