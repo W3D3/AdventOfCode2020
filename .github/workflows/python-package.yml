@@ -28,5 +28,7 @@ jobs:
         python -m pip install --upgrade pip
         python -m pip install .
     - name: Run all solutions
+      env:
+        AOC_SESSION: ${{ secrets.AOC_SESSION }}
       run: |
-        for f in ./solutions/aoc2020/day*.py; do python "$f"; done 
+        aoc --years 2020
