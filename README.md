@@ -1,5 +1,7 @@
 # Advent of Code 2020 🎄
 
+![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/W3D3/AdventOfCode2020/Python%20package/master) ![GitHub last commit](https://img.shields.io/github/last-commit/W3D3/AdventOfCode2020)
+
 Solutions for the [AoC 2020](https://adventofcode.com/2020) puzzles, written in Python.
 
 ## Solutions
