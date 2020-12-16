@@ -17,7 +17,7 @@ def part_a(data):
             negative_mask = int(value.replace("X", "1"), 2)
         else:
             mem_loc = parse("mem[{:d}]", cmd.strip()).fixed[0]
-            memory[mem_loc] = int(value) | positive_mask & negative_mask
+            memory[mem_loc] = (int(value) | positive_mask) & negative_mask
 
     return sum(memory.values())
 
