@@ -14,8 +14,6 @@ def part_a(data):
             min_diff = diff
             best_bus = id
 
-    print(best_bus, min_diff)
-    print(best_bus * min_diff)
     return best_bus * min_diff
 
 
