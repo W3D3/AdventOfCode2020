@@ -24,6 +24,7 @@ Solutions for the [AoC 2020](https://adventofcode.com/2020) puzzles, written in 
 | 14  | 🚢 [Docking Data](https://adventofcode.com/2020/day/14)                  | **[day14.py](solutions/aoc2020/day14.py)** ⭐⭐ |
 | 15  | 🧝 [Rambunctious Recitation](https://adventofcode.com/2020/day/15)       | **[day15.py](solutions/aoc2020/day15.py)** ⭐⭐ |
 | 16  | 🚆 [Ticket Translation](https://adventofcode.com/2020/day/16)            | **[day16.py](solutions/aoc2020/day16.py)** ⭐⭐ |
+| 17  | 📦 [Conway Cubes](https://adventofcode.com/2020/day/17)                  | **[day17.py](solutions/aoc2020/day17.py)** ⭐⭐ |
 
 ## Batch running
 
