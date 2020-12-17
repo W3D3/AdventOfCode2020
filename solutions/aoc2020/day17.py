@@ -10,7 +10,7 @@ import numpy as np
 
 def part_a(data):
     active_coords = parse_data(data)
-    print_3d_coords(active_coords)
+    # print_3d_coords(active_coords)
 
     for i in range(0, 6):
         active_coords = simulate_step(active_coords)

@@ -6,14 +6,13 @@ from aocd import submit
 
 def part_a(data):
     adapters = parse_data(data)
-    adapters.append(0) # outlet
-    adapters.append(max(adapters) + 3) # my phone
+    adapters.append(0)  # outlet
+    adapters.append(max(adapters) + 3)  # my phone
     adapters = sorted(adapters)
 
     cnt_3diff = 0
     cnt_1diff = 0
     for current, next in zip(adapters, adapters[1:]):
-        print(current, next, next - current)
         if next - current == 3:
             cnt_3diff += 1
         elif next - current == 1:
@@ -24,9 +23,9 @@ def part_a(data):
 
 def part_b(data):
     adapters = parse_data(data)
-    adapters.append(0) # outlet
+    adapters.append(0)  # outlet
     my_device = max(adapters) + 3
-    adapters.append(my_device) # my phone
+    adapters.append(my_device)  # my phone
     adapters = sorted(adapters, reverse=True)
 
     possibilities = [0] * len(adapters)
@@ -36,8 +35,8 @@ def part_b(data):
     for i in range(1, len(adapters)):
         current_possibilities = 0
         for j in range(1, 4):
-            if i-j >= 0 and adapters[i-j] - adapters[i] <= 3:
-                current_possibilities += possibilities[i-j]
+            if i - j >= 0 and adapters[i - j] - adapters[i] <= 3:
+                current_possibilities += possibilities[i - j]
         possibilities[i] = current_possibilities;
 
     return possibilities[-1]
@@ -45,52 +44,52 @@ def part_b(data):
 
 def part_b_rec(data):
     adapters = parse_data(data)
-    adapters.append(0) # outlet
+    adapters.append(0)  # outlet
     my_device = max(adapters) + 3
-    adapters.append(my_device) # my phone
+    adapters.append(my_device)  # my phone
     adapters = sorted(adapters)
 
     sum_paths = cnt_possibilities_rec(0, adapters)
 
     return sum_paths
 
+
 def cnt_possibilities_rec(index, adapters):
     selected = adapters[index]
     sum = 0
     for j in range(1, 4):
-        if index+j < len(adapters):
-            if adapters[index+j] - selected <= 3:
-                sum += cnt_possibilities_rec(index+j, adapters)
+        if index + j < len(adapters):
+            if adapters[index + j] - selected <= 3:
+                sum += cnt_possibilities_rec(index + j, adapters)
         else:
             return 1
     return sum
 
+
 def part_b_graph(data):
     adapters = parse_data(data)
-    adapters.append(0) # outlet
+    adapters.append(0)  # outlet
     my_device = max(adapters) + 3
-    adapters.append(my_device) # my phone
+    adapters.append(my_device)  # my phone
     adapters = sorted(adapters)
 
     graph = nx.DiGraph()
     graph.add_nodes_from(adapters)
 
-
     for i in range(0, len(adapters)):
         current = adapters[i]
         for j in range(1, 4):
-            if i+j < len(adapters) and adapters[i+j] - current <= 3:
-                graph.add_edge(current, adapters[i+j])
-
+            if i + j < len(adapters) and adapters[i + j] - current <= 3:
+                graph.add_edge(current, adapters[i + j])
 
     paths = nx.all_simple_paths(graph, source=0, target=my_device)
-    path_list = list(paths)
-    print(path_list)
-    sum_paths = sum(1 for _ in path_list)
+    sum_paths = sum(1 for _ in list(paths))
     return sum_paths
+
 
 def parse_data(data):
     return list(map(int, data.strip().split("\n")))
+
 
 small_test = """
 1
