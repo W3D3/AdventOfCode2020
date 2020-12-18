@@ -18,9 +18,8 @@ setup(
         "parse",
         "networkx",
         "matplotlib",
-        "numpy"
-        # list your other requirements here, for example:
-        # "numpy", "parse", "networkx",
+        "numpy",
+        "lark-parser"
     ],
     packages=find_packages(),
     entry_points={
